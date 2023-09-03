@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header>
       <nav class="bg-white border-gray-200 px-4 lg:px-6 py-6 shadow-sm">
-        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+        <div class="container px-20 flex flex-wrap justify-between items-center mx-auto ">
           <a href="https://flowbite.com" class="flex items-center">
             <img src={Logo} class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
           </a>
