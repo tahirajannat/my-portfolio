@@ -1,15 +1,17 @@
 import React from "react";
 import Border from "../common/Border";
 import Image1 from "../../assets/work-1.png";
+import Image2 from "../../assets/work-2.png";
+import Image3 from "../../assets/work-3.png";
 
 export default function LatestWorks() {
   const gallery = [
     { image: Image1 },
+    { image: Image2 },
+    { image: Image3 },
     { image: Image1 },
-    { image: Image1 },
-    { image: Image1 },
-    { image: Image1 },
-    { image: Image1 },
+    { image: Image2 },
+    { image: Image3 },
   ];
 
   return (

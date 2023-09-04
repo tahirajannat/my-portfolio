@@ -16,7 +16,7 @@ export default function Tabs({ active, onChange, children }) {
         </a>
       ))}
     </div>
-    <div className=" ">{children[active]}</div>
+    <div className=" h-80">{children[active]}</div>
   </>
 
   );
