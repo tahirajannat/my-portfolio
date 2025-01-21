@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import BannerImg from '../../assets/about.png';
+import bgimage from '../../assets/bg-sm.e20d3662.svg';
 import Education from '../Education';
 import Experience from '../Experience';
 import Skills from '../Skills';
@@ -21,6 +22,9 @@ export default function About() {
                         src={BannerImg}
                         alt='banner'
                     />
+                    <div className='absolute inset-y-0 left-0 flex justify-center items-center z-0'>
+                        <img className='' src={bgimage} alt='banner' />
+                    </div>
                 </div>
                 <div className='mr-auto place-self-center col-span-12 lg:col-span-6 z-10'>
                     <h1 className='mb-4 text-lg lg:text-[24px] text-secondary'>
@@ -40,13 +44,13 @@ export default function About() {
                     </div>
                     <div className='my-8'>
                         <Tabs active={active} onChange={handleChange}>
-                            <Tab title='Skills'>
+                            <Tab title='_skills'>
                                 <Skills />
                             </Tab>
-                            <Tab title='Experience'>
+                            <Tab title='_experience'>
                                 <Experience />
                             </Tab>
-                            <Tab title='Education'>
+                            <Tab title='_education'>
                                 <Education />
                             </Tab>
                         </Tabs>

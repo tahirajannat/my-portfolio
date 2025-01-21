@@ -1,3 +1,4 @@
+import { MdOutlineSubdirectoryArrowRight } from 'react-icons/md';
 import Logo from '../assets/logo_white_new.png';
 import Button from './common/Button';
 import Social from './common/Social';
@@ -48,13 +49,20 @@ export default function Footer() {
                     </p>
                     <div className='flex items-center my-8'>
                         <input
-                            className='appearance-none block w-full bg-[#92e3a98a] opacity-40 text-gray-900 placeholder:text-gray-500 border border-gray-200 rounded py-4 px-4  leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
+                            className='appearance-none block w-full bg-primary opacity-40 text-gray-900 placeholder:text-gray-500 border border-gray-200 rounded py-3.5 px-4  leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
                             id='grid-email'
                             type='email'
                             placeholder='Subscribe'
                         />
                         {/* <Button children={'Go'} styles="!px-4 "/> */}
-                        <Button styles='!px-4 '>Go</Button>
+                        <Button
+                            styles='!px-3 py-2.5 -ml-2 z-10 border !border-gray-400 rounded-r border-l-0'
+                            icon={
+                                <MdOutlineSubdirectoryArrowRight className='text-xl mt-1.5 ' />
+                            }
+                        >
+                            _go
+                        </Button>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,3 @@
-import { FaUserCircle } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 import Logo from '../assets/logo_white.png';
 
@@ -11,17 +10,14 @@ export default function Header() {
         <header>
             <nav className='bg-[#011627]  border-b border-gray-700 px-4 lg:px-6 shadow-sm flex justify-center items-center'>
                 <div className='container px-6 lg::px-20 flex flex-wrap justify-between items-center mx-auto'>
-                    <a
-                        href='https://flowbite.com'
-                        className='flex items-center'
-                    >
+                    <a href='/' className='flex items-center'>
                         <img
                             src={Logo}
                             className='mr-3 h-6 sm:h-9'
                             alt='Flowbite Logo'
                         />
                     </a>
-                    <div className='flex items-center lg:order-2'>
+                    {/* <div className='flex items-center lg:order-2'>
                         <a href='#'>
                             <FaUserCircle className='text-2xl text-white' />
                         </a>
@@ -58,7 +54,7 @@ export default function Header() {
                                 ></path>
                             </svg>
                         </button>
-                    </div>
+                    </div> */}
                     <div
                         className='hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1'
                         id='mobile-menu-2'

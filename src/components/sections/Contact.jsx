@@ -85,7 +85,7 @@ export default function Contact() {
                     First Name
                   </label> */}
                                     <input
-                                        className='appearance-none block w-full bg-[#92e3a98a] opacity-40 text-gray-900 placeholder:text-gray-500 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white'
+                                        className='appearance-none block w-full bg-secondary opacity-40 text-gray-900 placeholder:text-gray-500 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white'
                                         id='grid-first-name'
                                         type='text'
                                         placeholder='Jane Doe'
@@ -102,7 +102,7 @@ export default function Contact() {
                     Email Address
                   </label> */}
                                     <input
-                                        className='appearance-none block w-full bg-[#92e3a98a] opacity-40 text-gray-900 placeholder:text-gray-500border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
+                                        className='appearance-none block w-full bg-secondary opacity-40 text-gray-900 placeholder:text-gray-500border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
                                         id='grid-email'
                                         type='email'
                                         placeholder='********@*****.**'
@@ -118,7 +118,7 @@ export default function Contact() {
                     Subject
                   </label> */}
                                     <input
-                                        className='appearance-none block w-full bg-[#92e3a98a] opacity-40 text-gray-900 placeholder:text-gray-500 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
+                                        className='appearance-none block w-full bg-secondary opacity-40 text-gray-900 placeholder:text-gray-500 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
                                         id='grid-last-name'
                                         type='text'
                                         placeholder='E-commerce website Development'
@@ -130,13 +130,13 @@ export default function Contact() {
                                 <div className='w-full px-3'>
                                     <textarea
                                         rows='10'
-                                        className='appearance-none block w-full bg-[#92e3a98a] opacity-40 text-gray-900 placeholder:text-gray-500 border border-[#92e3a98a] rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
+                                        className='appearance-none block w-full bg-secondary opacity-40 text-gray-900 placeholder:text-gray-500 border border-secondary rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500'
                                         placeholder='Project Idea'
                                     ></textarea>
                                 </div>
                                 <div className='pt-6 px-3'>
                                     <Button styles='bg-secondary'>
-                                        Go Ahead
+                                        _go-ahead
                                     </Button>
                                 </div>
                             </div>

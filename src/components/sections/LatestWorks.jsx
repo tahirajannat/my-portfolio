@@ -39,19 +39,17 @@ export default function LatestWorks() {
                             key={index}
                             className='col-span-6 sm:col-span-4 lg:col-span-3 relative group'
                         >
-                            <div className='absolute bg-black w-full h-full opacity-0 group-hover:opacity-80 flex flex-row justify-center items-center gap-3 transition-opacity duration-300 px-4'>
+                            <div className='absolute bg-black w-full h-full opacity-0 group-hover:opacity-80 flex flex-row justify-center items-center gap-2 mx-0 px-2 transition-opacity duration-300'>
                                 <Button
-                                    styles='mx-auto lg:px-0 bg-transparent border-none text-xs'
-                                    icon={
-                                        <FaEye className='text-cyan-500 mr-0' />
-                                    }
+                                    styles='mx-auto lg:!px-0 bg-transparent border-none text-xs'
+                                    icon={<FaEye className='text-cyan-500' />}
                                 >
                                     _live-preview
                                 </Button>
                                 <Button
-                                    styles='mx-auto lg:px-0 bg-transparent border-none text-xs'
+                                    styles='mx-auto lg:!px-0 bg-transparent border-none text-xs'
                                     icon={
-                                        <FaGithub className='text-cyan-500 mr-0' />
+                                        <FaGithub className='text-cyan-500' />
                                     }
                                 >
                                     _github-link

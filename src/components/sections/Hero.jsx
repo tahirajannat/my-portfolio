@@ -1,3 +1,4 @@
+import { MdOutlineSubdirectoryArrowRight } from 'react-icons/md';
 import BannerImg from '../../assets/banner.png';
 import bgimage from '../../assets/bg-sm.e20d3662.svg';
 import Button from '../common/Button';
@@ -11,7 +12,7 @@ const Hero = () => {
                     <img className='' src={bgimage} alt='banner' />
                 </div>
 
-                <div className='mr-auto place-self-center col-span-12 lg:col-span-6 z-10 pt-16'>
+                <div className='mr-auto place-self-center col-span-12 lg:col-span-6 z-10 pt-8'>
                     <h1 className='mb-4 text-4xl lg:text-[45px] text-white font-semibold '>
                         Hi- I'm Tahira Jannat
                     </h1>
@@ -25,7 +26,14 @@ const Hero = () => {
                         Crafting innovative solutions to solve real-world
                         problems
                     </p>
-                    <Button styles='mt-10 lg:mt-32'>_hire-me</Button>
+                    <Button
+                        styles='mt-10 lg:mt-16'
+                        icon={
+                            <MdOutlineSubdirectoryArrowRight className='mt-2' />
+                        }
+                    >
+                        _say-hi
+                    </Button>
                     <div className='mt-14 '>
                         <Social />
                         {/* <a className=' inline-block p-2.5 bg-slate-200'>

@@ -1,4 +1,6 @@
+import { FaCloudDownloadAlt } from 'react-icons/fa';
 import Button from './common/Button';
+
 export default function Experience() {
     return (
         <div className='my-4 text-accent'>
@@ -9,7 +11,9 @@ export default function Experience() {
                 but the majority have fered altation in some form, by injmour,
                 or randomised words which don&#39;t look even slightlievable.
             </p>
-            <Button styles='mt-10 '>_download-cv</Button>
+            <Button styles='mt-10 ' icon={<FaCloudDownloadAlt />}>
+                _download-cv
+            </Button>
         </div>
     );
 }
