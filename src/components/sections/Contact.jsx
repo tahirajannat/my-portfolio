@@ -1,4 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
+import React from 'react';
 import { FaEnvelope, FaHome, FaPhone } from 'react-icons/fa';
 import Border from '../common/Border';
 import Button from '../common/Button';
