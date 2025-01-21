@@ -1,6 +1,6 @@
-import React from 'react'
+/* eslint-disable react/prop-types */
 
-export default function Tab({title, children}) {
+export default function Tab({children}) {
   return (
     <div className=''>{children}</div>
   )

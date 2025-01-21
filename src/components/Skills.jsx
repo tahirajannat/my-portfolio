@@ -1,4 +1,3 @@
-import React from "react";
 import ProgressBar from "./common/ProgressBar";
 
 export default function Skills() {
