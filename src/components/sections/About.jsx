@@ -15,7 +15,7 @@ export default function About() {
 
     return (
         <section className='  relative '>
-            <div className=' container mx-auto sm:grid px-8 lg:px-20 py-8 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12'>
+            <div className=' container mx-auto sm:grid px-8 lg:px-8 py-8 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12'>
                 <div className='lg:mt-0 col-span-12 lg:col-span-6 lg:pr-14 z-10'>
                     <img
                         className='object-cover block my-20 lg:my-[120px] mr-0 ml-auto'

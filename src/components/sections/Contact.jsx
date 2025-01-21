@@ -6,7 +6,7 @@ import Button from '../common/Button';
 export default function Contact() {
     return (
         <section className=' bg-primary relative '>
-            <div className=' container mx-auto sm:grid px-8 lg:px-20 py-8 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12'>
+            <div className=' container mx-auto sm:grid px-8 lg:px-8 py-8 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12'>
                 <div className='mr-auto place-self-center col-span-12 lg:col-span-6 z-10'>
                     <h1 className='mb-4 text-lg lg:text-[24px] text-secondary'>
                         //Contact Me

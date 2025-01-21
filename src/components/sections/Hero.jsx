@@ -61,12 +61,15 @@ const Hero = () => {
                         </a> */}
                     </div>
                 </div>
-                <div className='lg:mt-0 col-span-12 lg:col-span-6 md:pr-14 z-50'>
+                <div className='lg:mt-0 col-span-12 lg:col-span-6 md:pr-14 z-50 relative'>
                     <img
                         className='object-cover block mt-20 mb-10 md:my-[120px] mr-0 ml-auto'
                         src={BannerImg}
                         alt='banner'
                     />
+                    <div className='absolute top-0 left-0 w-full h-screen flex items-center justify-center'>
+                        {/* <AnimatedIcons /> */}
+                    </div>
                 </div>
             </div>
         </section>

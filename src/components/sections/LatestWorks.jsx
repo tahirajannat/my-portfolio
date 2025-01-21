@@ -17,7 +17,7 @@ export default function LatestWorks() {
 
     return (
         <div className='bg-primary'>
-            <div className='container mx-auto px-8 lg:px-20 py-20 grid grid-cols-12 gap-4 lg:gap-8'>
+            <div className='container mx-auto px-8 lg:px-8 py-20 grid grid-cols-12 gap-4 lg:gap-8'>
                 <div className='col-span-12 lg:col-span-6 lg:pr-20'>
                     <h1 className='mb-4 text-lg lg:text-[24px] text-secondary'>
                         //Latest Works

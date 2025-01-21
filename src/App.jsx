@@ -4,7 +4,6 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Footer from './components/Footer';
 import Nav from './components/Header';
 import About from './components/sections/About';
-import Demo from './components/sections/Demo';
 import Home from './components/views/Home';
 
 export default function App() {
@@ -24,7 +23,7 @@ export default function App() {
                 </Routes>
                 <Footer />
             </div>
-            <Demo />
+            {/* <Demo /> */}
         </Router>
     );
 }
