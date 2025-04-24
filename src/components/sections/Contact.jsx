@@ -8,11 +8,12 @@ export default function Contact() {
         <section className=' bg-primary relative '>
             <div className=' container mx-auto sm:grid px-8 lg:px-8 py-8 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12'>
                 <div className='mr-auto place-self-center col-span-12 lg:col-span-6 z-10'>
-                    <h1 className='mb-4 text-lg lg:text-[24px] text-secondary'>
-                        //Contact Me
-                    </h1>
-                    <h2 className='mb-4 text-[27px] lg:text-[40px] text-accent leading-none '>
-                        Let's Connect <br />
+                    <h6 className='mb-4 text-base text-secondary uppercase'>
+                        // Contact Me
+                    </h6>
+
+                    <h2 className='mb-4 text-[27px] lg:text-[40px] text-blue-600 leading-none'>
+                        <span className='text-accent'>Let's</span> Connect
                     </h2>
                     <Border />
 
@@ -31,7 +32,7 @@ export default function Contact() {
                                 <span className='text-2xl text-secondary'>
                                     <FaHome />
                                 </span>
-                                744 New York Ave, Brooklyn, Kings,New York 10224
+                                Otto-Hoffman-Straße 13, Chemnitz, Germany, 09122
                             </p>
                         </div>
                         <div>
@@ -42,8 +43,7 @@ export default function Contact() {
                                 <span className='text-2xl text-secondary'>
                                     <FaPhone />
                                 </span>
-                                (+642) 245 356 432 <br />
-                                (+642) 245 356 432
+                                (+49) 015560101810
                             </p>
                         </div>
                         <div>
@@ -54,18 +54,20 @@ export default function Contact() {
                                 <span className='text-2xl text-secondary'>
                                     <FaEnvelope />
                                 </span>
-                                suppot@gmail.com
+                                tahirajannatshetu@gmail.com
                             </p>
                         </div>
                     </div>
                 </div>
                 <div className='lg:mt-0 col-span-12 lg:col-span-6 pr-0 lg:pr-14 z-10'>
                     <div className='max-w-screen-md mx-auto py-8 lg:p-5'>
-                        <h1 className='mb-4 text-lg lg:text-[24px] text-secondary'>
-                            //Let’s Talk
-                        </h1>
-                        <h2 className='mb-4 text-[26px] lg:text-[40px] text-accent leading-none '>
-                            Discuss Your Project
+                        <h6 className='mb-4 text-base  text-secondary uppercase'>
+                            // Let’s Talk
+                        </h6>
+
+                        <h2 className='mb-4 text-[27px] lg:text-[40px] text-blue-600 leading-none'>
+                            <span className='text-accent'>Discuss</span> Your
+                            Project
                         </h2>
                         <Border />
                         <div className='my-8'>
@@ -136,7 +138,7 @@ export default function Contact() {
                                 </div>
                                 <div className='pt-6 px-3'>
                                     <Button styles='bg-secondary'>
-                                        _go-ahead
+                                        go ahead
                                     </Button>
                                 </div>
                             </div>

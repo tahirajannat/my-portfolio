@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import Logo from '../assets/logo_white.png';
+import Logo from '../assets/logo-new.png';
 
 export default function Header() {
     let activeClassName =
@@ -59,7 +59,7 @@ export default function Header() {
                         className='hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1'
                         id='mobile-menu-2'
                     >
-                        <ul className='flex items-center flex-col mt-4 font-medium lg:flex-row  lg:mt-0 text-white'>
+                        <ul className='flex items-center flex-col mt-4 font-medium lg:flex-row  lg:mt-0 text-white capitalize'>
                             <NavLink
                                 to=''
                                 className={({ isActive }) =>
@@ -68,7 +68,7 @@ export default function Header() {
                                         : nonActiveClassName
                                 }
                             >
-                                _home
+                                home
                             </NavLink>
                             <NavLink
                                 to='/about-me'
@@ -78,7 +78,7 @@ export default function Header() {
                                         : nonActiveClassName
                                 }
                             >
-                                _about-me
+                                about me
                             </NavLink>
                             <NavLink
                                 to='/work'
@@ -88,7 +88,7 @@ export default function Header() {
                                         : nonActiveClassName
                                 }
                             >
-                                _projects
+                                projects
                             </NavLink>
                             <NavLink
                                 to='/services'
@@ -98,7 +98,7 @@ export default function Header() {
                                         : nonActiveClassName
                                 }
                             >
-                                _services
+                                services
                             </NavLink>
                             <NavLink
                                 to='contact'
@@ -108,12 +108,43 @@ export default function Header() {
                                         : nonActiveClassName
                                 }
                             >
-                                _contact-me
+                                contact-me
                             </NavLink>
                         </ul>
                     </div>
                 </div>
             </nav>
+            {/* <nav className='flex justify-between items-center p-6'>
+                <div className='flex items-center space-x-4'>
+                    <a href='#' className='text-xl font-bold'>
+                        In f t designer
+                    </a>
+                </div>
+                <div className='flex space-x-6'>
+                    <a href='#' className='hover:text-purple-400'>
+                        Home
+                    </a>
+                    <a href='#' className='hover:text-purple-400'>
+                        Services
+                    </a>
+                    <a href='#' className='hover:text-purple-400'>
+                        Projects
+                    </a>
+                    <a href='#' className='hover:text-purple-400'>
+                        About
+                    </a>
+                    <a href='#' className='hover:text-purple-400'>
+                        Contact
+                    </a>
+                </div>
+                <div className='flex space-x-4'>
+                    <span>+880 534 986 757</span>
+                    <span>example@gmail.com</span>
+                    <button className='bg-gradient-to-r from-purple-600 to-blue-500 px-4 py-2 rounded-full hover:from-purple-700 hover:to-blue-600'>
+                        Get my Projects
+                    </button>
+                </div>
+            </nav> */}
         </header>
     );
 }

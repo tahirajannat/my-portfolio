@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Assistant:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,20 +10,26 @@
 @layer base {
     html {
         /* font-family: 'Aclonica'; */
-        font-family: 'Fira Code', serif;
+        font-family: 'Space Grotesk', sans-serif;
+        font-optical-sizing: auto;
+        /* font-weight: <weight>; */
+        font-style: normal;
     }
     p {
         /* font-family: 'Assistant'; */
-        font-family: 'Fira Code', serif;
+        font-family: 'Space Grotesk', sans-serif;
+        font-optical-sizing: auto;
+        /* font-weight: <weight>; */
+        font-style: normal;
         @apply font-normal text-accent text-xl;
     }
 }
 body {
-    background-color: #011627;
+    background-color: #0a0a0c;
 }
 .title-bottom::after {
     content: '';
-    background-color: #607b96;
+    background-color: #0a0a0c;
     width: 3px;
     height: 3px;
     border-radius: 50%;
@@ -50,4 +58,10 @@ body {
             0% 50%
         );
     }
+}
+.blockk {
+    width: 100px;
+    height: 100px;
+    /* dashed border */
+    background-image: url('../src/assets/border.png');
 }

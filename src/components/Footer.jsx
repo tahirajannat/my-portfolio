@@ -1,5 +1,5 @@
 import { MdOutlineSubdirectoryArrowRight } from 'react-icons/md';
-import Logo from '../assets/logo_white_new.png';
+import Logo from '../assets/logo-new.png';
 import Button from './common/Button';
 import Social from './common/Social';
 
@@ -9,18 +9,15 @@ export default function Footer() {
             <div className=' border-b border-secondary'>
                 <div className=' container mx-auto sm:grid px-8 py-8 lg:gap-8 xl:gap-0 lg:py-16 grid-cols-12'>
                     <div className='lg:mt-0 col-span-12 lg:col-span-4  lg:pr-14 z-10'>
-                        <a
-                            href='https://flowbite.com'
-                            className='flex items-center'
-                        >
+                        <a href='/' className='flex items-center'>
                             <img
                                 src={Logo}
-                                className='mr-3 sm:h-12 h-6 '
-                                alt='Flowbite Logo'
+                                className='mr-3 sm:h-10 h-6 '
+                                alt='tahira Logo'
                             />
                         </a>
                         <div className='my-4'>
-                            <p className=' leading-8'>
+                            <p className=' leading-8 text-lg'>
                                 Crafting innovative solutions to solve
                                 real-world problems
                             </p>
@@ -28,25 +25,21 @@ export default function Footer() {
                         {/* <Social /> */}
                     </div>
                     <div className='mr-auto col-span-6 lg:col-span-4 z-10'>
-                        <h2 className='mb-4 text-[20px] text-accent leading-none '>
-                            //Latest Works
+                        <h2 className='mb-4 text-base uppercase text-accent leading-none '>
+                            // Latest Works
                         </h2>
-                        <h3 className='mb-4 text-[18px] text-accent'>
-                            About Me
-                        </h3>
-                        <h3 className='mb-4 text-[18px] text-accent'>Blog</h3>
-                        <h3 className='mb-4 text-[18px] text-accent'>
+                        <h3 className='mb-4 text-lg text-accent'>About Me</h3>
+                        <h3 className='mb-4 text-lg text-accent'>Blog</h3>
+                        <h3 className='mb-4 text-lg text-accent'>
                             Privacy & Policy
                         </h3>
-                        <h3 className='mb-4 text-[18px] text-accent'>
-                            Sign In
-                        </h3>
+                        <h3 className='mb-4 text-lg text-accent'>Sign In</h3>
                     </div>
                     <div className='mr-auto col-span-6 lg:col-span-4 z-10 '>
-                        <h2 className='mb-4 text-[20px] text-accent leading-none '>
-                            //Contact Me
+                        <h2 className='mb-4 text-base uppercase text-accent leading-none '>
+                            // Contact Me
                         </h2>
-                        <p className=' leading-8'>
+                        <p className=' leading-8 text-lg'>
                             Looking for help? Fill the form and start a new
                             adventure.
                         </p>
@@ -61,10 +54,10 @@ export default function Footer() {
                             <Button
                                 styles='!px-3 py-2.5 -ml-2 z-10 border !border-gray-400 rounded-r border-l-0'
                                 icon={
-                                    <MdOutlineSubdirectoryArrowRight className='text-xl mt-1.5 ' />
+                                    <MdOutlineSubdirectoryArrowRight className='text-xl mt-1.5 mr-2 ' />
                                 }
                             >
-                                _go
+                                go
                             </Button>
                         </div>
                     </div>

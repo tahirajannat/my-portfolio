@@ -2,20 +2,20 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 export default function Social() {
     return (
-        <div className='my-4'>
-            <a className='rounded-full inline-block p-2.5 bg-secondary'>
-                <FaLinkedinIn className='text-white text-lg ' />
+        <div className='my-2'>
+            <a className='rounded-full inline-block p-3 bg-gradient-to-r from-gray-600 to-gray-800  hover:from-gray-700 hover:to-gray-600 transition-all duration-100'>
+                <FaLinkedinIn className='text-white text-base ' />
             </a>
-            <a className='rounded-full inline-block p-2.5 bg-secondary ml-6'>
-                <FaInstagram className='text-white text-lg' />
+            <a className='rounded-full inline-block p-3 bg-gradient-to-r from-gray-600 to-gray-800  hover:from-gray-700 hover:to-gray-600 transition-all duration-100 ml-6'>
+                <FaInstagram className='text-white text-base' />
             </a>
-            <a className='rounded-full inline-block p-2.5 bg-secondary ml-6'>
-                <FaFacebookF className='text-white text-lg' />
+            <a className='rounded-full inline-block p-3 bg-gradient-to-r from-gray-800 to-gray-600  hover:from-gray-700 hover:to-gray-600 transition-all duration-100 ml-6'>
+                <FaFacebookF className='text-white text-base' />
             </a>
-            <a className='rounded-full inline-block p-3 bg-secondary ml-6'>
+            <a className='rounded-full inline-block p-3 bg-gradient-to-r from-gray-600 to-gray-800  hover:from-gray-700 hover:to-gray-600 transition-all duration-100 ml-6'>
                 <svg
-                    width='15'
-                    height='16'
+                    width='13'
+                    height='13'
                     viewBox='0 0 15 16'
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'

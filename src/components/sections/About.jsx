@@ -27,11 +27,11 @@ export default function About() {
                     </div>
                 </div>
                 <div className='mr-auto place-self-center col-span-12 lg:col-span-6 z-10'>
-                    <h1 className='mb-4 text-lg lg:text-[24px] text-secondary'>
-                        //About Me
-                    </h1>
-                    <h2 className='mb-4 text-[27px] lg:text-[40px] text-accent leading-none '>
-                        Small Talk <br />
+                    <h6 className='mb-4 text-base  text-secondary uppercase'>
+                        // About Me
+                    </h6>
+                    <h2 className='mb-4 text-[27px] lg:text-[40px] text-blue-600 leading-none'>
+                        <span className='text-accent'>Small</span> Talk
                     </h2>
                     <Border />
 
@@ -44,13 +44,13 @@ export default function About() {
                     </div>
                     <div className='my-8'>
                         <Tabs active={active} onChange={handleChange}>
-                            <Tab title='_skills'>
+                            <Tab title='skills'>
                                 <Skills />
                             </Tab>
-                            <Tab title='_experience'>
+                            <Tab title='experience'>
                                 <Experience />
                             </Tab>
-                            <Tab title='_education'>
+                            <Tab title='education'>
                                 <Education />
                             </Tab>
                         </Tabs>

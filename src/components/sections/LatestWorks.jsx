@@ -19,11 +19,12 @@ export default function LatestWorks() {
         <div className='bg-primary'>
             <div className='container mx-auto px-8 lg:px-8 py-20 grid grid-cols-12 gap-4 lg:gap-8'>
                 <div className='col-span-12 lg:col-span-6 lg:pr-20'>
-                    <h1 className='mb-4 text-lg lg:text-[24px] text-secondary'>
-                        //Latest Works
-                    </h1>
-                    <h2 className='mb-4 text-[27px] lg:text-[40px] text-accent leading-none'>
-                        Made With Pride.
+                    <h6 className='mb-4 text-base  text-secondary uppercase'>
+                        // Portfolios
+                    </h6>
+                    <h2 className='mb-4 text-[27px] lg:text-[40px] text-blue-600 leading-none'>
+                        <span className='text-accent'>My</span> Completed
+                        Projects.
                     </h2>
                     <Border />
                     <div className=' mt-14 lg:mt-16'>
